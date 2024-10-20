@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fons"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="220dp"
+        android:layout_height="31dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Your product name"
+        android:textAlignment="center"
+        android:textColor="#202F95"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="84dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="163dp"
+        android:fontFamily="monospace"
+        android:text="$39"
+        android:textAlignment="center"
+        android:textColor="#8CA0B1"
+        android:textSize="45sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="217dp"
+        android:layout_height="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Lorem ipsum dolor sit amet"
+        android:textAlignment="center"
+        android:textColor="#0C185F"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="216dp"
+        android:layout_height="47dp"
+        android:text="consectetur adipiscing elit. Etiam sit amet nisl eget lectus finibus imperdiet nec aliquam tellus."
+        android:textAlignment="center"
+        android:textColor="#536780"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#5F6387"
+        android:foregroundTint="#E00000"
+        android:radius="10dp"
+        android:text="Add to cart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956"
+        app:strokeColor="#4D537A" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
